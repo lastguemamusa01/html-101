@@ -1,17 +1,22 @@
 {
-  "name": " ",
+  "name": "html-101",
   "version": "0.0.1",
   "description": "",
   "keywords": "",
   "license": "",
-  "author": "",
+  "author": {
+    "name": "Min Ku Nam",
+    "email": "minku1324@gmail.com"
+  },
   "scripts": {
+    "clean": "echo '-> CLEAN PROJECT'",
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "prettier": "2.4.1"
   }
 }
